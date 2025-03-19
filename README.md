@@ -1,3 +1,4 @@
+[bài tập](https://leetcode.com/studyplan/30-days-of-javascript/)
 # 1. Variable.
 
 ## _let, const_
