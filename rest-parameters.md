@@ -1,5 +1,5 @@
 # Bài tập: Rest Parameters
-## 1.
+## 1. Kiểm tra email hợp lệ
 ```js
 const validateEmails = (...emails) => {
   // Viết code ở đây
@@ -9,7 +9,7 @@ console.log(validateEmails("user@example.com", "admin@domain.com", "invalidemail
 // Output: { valid: ["user@example.com", "admin@domain.com"], invalid: ["invalidemail"] }
 ```
 
-## 2.
+## 2. Kết hợp danh sách sản phẩm từ nhiều nguồn
 ```js
 const mergeProducts = (...productLists) => {
   // Viết code ở đây
@@ -35,7 +35,7 @@ Output:
 ]
 */
 ```
-## 3.
+## 3. Tạo hàm format giá tiền
 ```js
 const formatPrices = (currency, ...prices) => {
   // Viết code ở đây
